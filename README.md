@@ -96,13 +96,13 @@ Ball and Bot: Both inherit from Ball class. Bots move randomly and can eat other
 Ball and Food: The player ball eats food, growing in size and increasing the score.
 Game Class: It manages the interaction between all balls (players and bots), food, and the game state.
 
-**Summary:**
+## Summary: ##
 Ball Class: Represents both the player and bot balls.
 Bot Class: Inherits from Ball and controls the bot's behavior.
 Food Class: Handles food objects that can be consumed by the balls.
 Game Class: Manages the overall game logic and interactions between balls, bots, and food.
 
-**Modifications and Extensions:**
+## Modifications and Extensions: ##
 This project recreated a simple ball-bouncing simulator into a full interactive game:
 
 Bot Movement: Bots move randomly and can eat smaller balls.
@@ -113,19 +113,19 @@ Growth Mechanism: Balls grow in size when they eat food or smaller balls.
 
 Game Boundaries: Balls stay within the defined boundaries of the screen.
 
-**Testing:**
+## Testing: ##
 Automated Unit Tests: This project currently doesn't include unit tests, but it can be extended using frameworks such as unittest or pytest.
 Manual Testing: Manual testing involves checking if balls collide properly, if bots behave as expected, and if the player can grow by eating food and other balls.
 
-**Known Issues:**
+## Known Issues: ##
 There is a minor bug where balls might sometimes overlap or pass through each other when colliding. This will be addressed in future versions.
 Project Sophistication Level.
 
-**Rating**
+## Rating ##
 I rate the sophistication of this project at 90.
 Reasoning: The project involves  game mechanics (movement, growth, collision detection), but it introduces multiple interacting objects (player ball, bots, food)  a dynamic difficulty level and theme. it provides a fun and engaging experience.
 
-**Credits**
+## Credits ##
 
 Developer :Inthat Niramarn 6710545997
 
