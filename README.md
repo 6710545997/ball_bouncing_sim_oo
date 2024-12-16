@@ -32,7 +32,7 @@ The more food and smaller balls you eat, the larger your ball becomes, increasin
 - `turtle` graphics library (usually pre-installed with Python)
 
 ### Installation Steps:
-1. ## Clone the Repository## :
+1. ## Clone the Repository ## :
    ```bash
    cd to where you want to download game folder
    git clone https://github.com/yourusername/eatmyball-game.git
