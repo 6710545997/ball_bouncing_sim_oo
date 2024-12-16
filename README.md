@@ -1,18 +1,18 @@
 # EATMYBALL GAME
 
 ## Project Title
-## EATMYBALL GAME##  – A fun interactive simulation where players control a ball that grows by eating food and smaller balls, while avoiding larger balls controlled by bots.
+**EATMYBALL GAME** – A fun interactive simulation where players control a ball that grows by eating food and smaller balls, while avoiding larger balls controlled by bots.
 
 ## Project Description
-## EATMYBALL GAME##  is an interactive simulation where players control a ball that moves around the screen, eating food and smaller balls to grow in size. Bots, represented by other balls, move randomly and can eat smaller balls. The goal is to grow your ball while avoiding bots that are larger than you. The game features dynamic difficulty as the bots grow in size, and the player must adapt to survive.
+**EATMYBALL GAME** is an interactive simulation where players control a ball that moves around the screen, eating food and smaller balls to grow in size. Bots, represented by other balls, move randomly and can eat smaller balls. The goal is to grow your ball while avoiding bots that are larger than you. The game features dynamic difficulty as the bots grow in size, and the player must adapt to survive.
 
 ### Features:
-- ## Player-Controlled Ball## : You control the player ball to move it around using the keyboard.
-- ## Random Bots## : Bots move randomly and eat smaller balls to grow larger.
-- ## Food Collection## : The player ball can eat food items to increase its size and score.
-- ## Ball Collision Mechanics## : Balls can collide with other balls, and larger balls can eat smaller ones.
-- ## Dynamic Difficulty## : Bots get stronger as they grow by eating smaller balls.
-- ## Score System## : The player's score increases as they consume food and other balls.
+- **Player-Controlled Ball**: You control the player ball to move it around using the keyboard.
+- **Random Bots**: Bots move randomly and eat smaller balls to grow larger.
+- **Food Collection**: The player ball can eat food items to increase its size and score.
+- **Ball Collision Mechanics**: Balls can collide with other balls, and larger balls can eat smaller ones.
+- **Dynamic Difficulty**: Bots get stronger as they grow by eating smaller balls.
+- **Score System**: The player's score increases as they consume food and other balls.
 
 ### Gameplay Overview:
 Controls
@@ -32,14 +32,14 @@ The more food and smaller balls you eat, the larger your ball becomes, increasin
 - `turtle` graphics library (usually pre-installed with Python)
 
 ### Installation Steps:
-1. ## Clone the Repository ## :
+1. **Clone the Repository**:
    ```bash
    cd to where you want to download game folder
    git clone https://github.com/yourusername/eatmyball-game.git
-2. ## Run the Game:## :
+2. **Run the Game:**:
     Execute the main.py file to start the game:
     python main.py
-3. ## Exit the Game:## 
+3. **Exit the Game:**
     Close the turtle graphics window to stop the game.
 Usage
 
@@ -96,13 +96,13 @@ Ball and Bot: Both inherit from Ball class. Bots move randomly and can eat other
 Ball and Food: The player ball eats food, growing in size and increasing the score.
 Game Class: It manages the interaction between all balls (players and bots), food, and the game state.
 
-## Summary:## 
+**Summary:**
 Ball Class: Represents both the player and bot balls.
 Bot Class: Inherits from Ball and controls the bot's behavior.
 Food Class: Handles food objects that can be consumed by the balls.
 Game Class: Manages the overall game logic and interactions between balls, bots, and food.
 
-## Modifications and Extensions:## 
+**Modifications and Extensions:**
 This project recreated a simple ball-bouncing simulator into a full interactive game:
 
 Bot Movement: Bots move randomly and can eat smaller balls.
@@ -113,19 +113,19 @@ Growth Mechanism: Balls grow in size when they eat food or smaller balls.
 
 Game Boundaries: Balls stay within the defined boundaries of the screen.
 
-## Testing:## 
+**Testing:**
 Automated Unit Tests: This project currently doesn't include unit tests, but it can be extended using frameworks such as unittest or pytest.
 Manual Testing: Manual testing involves checking if balls collide properly, if bots behave as expected, and if the player can grow by eating food and other balls.
 
-## Known Issues:## 
+**Known Issues:**
 There is a minor bug where balls might sometimes overlap or pass through each other when colliding. This will be addressed in future versions.
 Project Sophistication Level.
 
-## Rating## 
+**Rating**
 I rate the sophistication of this project at 90.
 Reasoning: The project involves  game mechanics (movement, growth, collision detection), but it introduces multiple interacting objects (player ball, bots, food)  a dynamic difficulty level and theme. it provides a fun and engaging experience.
 
-## Credits## 
+**Credits**
 
 Developer :Inthat Niramarn 6710545997
 
